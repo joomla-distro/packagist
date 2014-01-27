@@ -1,0 +1,73 @@
+{
+    "packages": {
+        "joomla-distro/cms-distro-core": {
+            "0.1": {
+                "name": "joomla-distro/cms-distro-core",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/joomla-distro/joomla-distro-core/archive/master.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "composer-plugin-api": "1.0.0"
+                },
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Cms\\Composer\\Installer"
+                },
+                "autoload": {
+                    "psr-0": [
+                        {
+                            "Cms\\Composer": "src/"
+                        },
+                        {
+                            "Cms\\Util": "src/"
+                        }
+                    ]
+                }
+            }
+        },
+        "joomla-distro/cms-installer-application": {
+            "0.1": {
+                "name": "joomla-distro/cms-installer-application",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/joomla-distro/cms-installer-application/archive/master.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "joomla-distro/cms-distro-core": "*"
+                },
+                "type": "cms-application",
+                "autoload": {
+                    "psr-0": {
+                        "App": ""
+                    }
+                }
+            }
+        },
+        "joomla/jui": {
+            "0.1": {
+                "name": "joomla/jui",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/joomla-distro/joomla-jui/archive/master.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "joomla-distro/cms-distro-core": "*"
+                },
+                "type": "cms-media"
+            }
+        }
+    }
+}
