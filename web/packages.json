@@ -109,6 +109,40 @@
                 },
                 "type": "cms-media"
             }
+        },
+        "boostrap/v3": {
+            "0.1": {
+                "name": "boostrap/v3",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/joomla-distro/bootstrap-v3/archive/master.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "joomla-distro/cms-distro-core": "*"
+                },
+                "type": "cms-media"
+            }
+        },
+        "jquery/core": {
+            "0.1": {
+                "name": "jquery/core",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/joomla-distro/jquery-core/archive/master.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "joomla-distro/cms-distro-core": "*"
+                },
+                "type": "cms-media"
+            }
         }
     }
 }
