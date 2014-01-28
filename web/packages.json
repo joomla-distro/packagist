@@ -7,7 +7,7 @@
                 "version_normalized": "0.1.0.0",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/joomla-distro/joomla-distro-core/archive/master.zip",
+                    "url": "https://github.com/joomla-distro/cms-distro-core/archive/master.zip",
                     "reference": null,
                     "shasum": null
                 },
@@ -22,9 +22,6 @@
                     "psr-0": [
                         {
                             "Cms\\Composer": "src/"
-                        },
-                        {
-                            "Cms\\Util": "src/"
                         }
                     ]
                 }
@@ -52,6 +49,50 @@
                 }
             }
         },
+        "joomla-distro/cms-administrator-application": {
+            "0.1": {
+                "name": "joomla-distro/cms-administrator-application",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/joomla-distro/cms-administrator-application/archive/master.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "joomla-distro/cms-distro-core": "*"
+                },
+                "type": "cms-application",
+                "autoload": {
+                    "psr-0": {
+                        "Administrator": "src"
+                    }
+                }
+            }
+        },
+        "joomla-distro/cms-authentication": {
+            "0.1": {
+                "name": "joomla-distro/cms-authentication",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/joomla-distro/cms-authentication/archive/master.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "joomla-distro/cms-distro-core": "*"
+                },
+                "type": "cms-component",
+                "autoload": {
+                    "psr-0": {
+                        "Authentication": "src"
+                    }
+                }
+            }
+        },
         "joomla/jui": {
             "0.1": {
                 "name": "joomla/jui",
@@ -59,7 +100,7 @@
                 "version_normalized": "0.1.0.0",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/joomla-distro/joomla-jui/archive/master.zip",
+                    "url": "https://github.com/joomla-distro/joomla-media-jquery/archive/master.zip",
                     "reference": null,
                     "shasum": null
                 },
