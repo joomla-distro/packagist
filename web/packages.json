@@ -47,7 +47,7 @@
                 "type": "cms-application",
                 "autoload": {
                     "psr-0": {
-                        "Installer": "App"
+                        "Installer": "src/Installer"
                     }
                 }
             }
