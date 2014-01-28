@@ -110,9 +110,9 @@
                 "type": "cms-media"
             }
         },
-        "boostrap/v3": {
+        "bootstrap/v3": {
             "0.1": {
-                "name": "boostrap/v3",
+                "name": "bootstrap/v3",
                 "version": "0.1",
                 "version_normalized": "0.1.0.0",
                 "dist": {
