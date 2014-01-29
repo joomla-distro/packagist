@@ -143,6 +143,23 @@
                 },
                 "type": "cms-media"
             }
+        },
+        "joomla-distro/cms-lite-template": {
+            "0.1": {
+                "name": "joomla-distro/cms-lite-template",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/joomla-distro/cms-lite-template/archive/master.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "joomla-distro/cms-distro-core": "*"
+                },
+                "type": "cms-template"
+            }
         }
     }
 }
