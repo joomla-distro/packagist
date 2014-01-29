@@ -71,14 +71,14 @@
                 }
             }
         },
-        "joomla-distro/cms-authentication": {
+        "joomla-distro/cms-users": {
             "0.1": {
-                "name": "joomla-distro/cms-authentication",
+                "name": "joomla-distro/cms-users",
                 "version": "0.1",
                 "version_normalized": "0.1.0.0",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/joomla-distro/cms-authentication/archive/master.zip",
+                    "url": "https://github.com/joomla-distro/cms-users/archive/master.zip",
                     "reference": null,
                     "shasum": null
                 },
