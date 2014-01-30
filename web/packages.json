@@ -40,7 +40,10 @@
                 },
                 "require": {
                     "joomla-distro/cms-distro-core": "*",
-                    "joomla-distro/media-installer": "*"
+                    "joomla-distro/media-installer": "*",
+                    "boostrap/v2": "*",
+                    "jquery/core": "*",
+                    "joomla/jui": "*"
                 },
                 "type": "cms-application",
                 "autoload": {
