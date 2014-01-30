@@ -194,7 +194,8 @@
                     "shasum": null
                 },
                 "require": {
-                    "joomla-distro/cms-distro-core": "*"
+                    "joomla-distro/cms-distro-core": "*",
+                    "bootstrap/v3": "*"
                 },
                 "type": "cms-template"
             }
