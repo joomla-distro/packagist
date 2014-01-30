@@ -41,7 +41,7 @@
                 "require": {
                     "joomla-distro/cms-distro-core": "*",
                     "joomla-distro/media-installer": "*",
-                    "boostrap/v2": "*",
+                    "bootstrap/v2": "*",
                     "jquery/core": "*",
                     "joomla/jui": "*"
                 },
