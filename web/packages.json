@@ -53,14 +53,14 @@
                 }
             }
         },
-        "joomla-distro/cms-administrator-application": {
+        "joomla-distro/cms-frontend-application": {
             "0.1": {
-                "name": "joomla-distro/cms-administrator-application",
+                "name": "joomla-distro/cms-frontend-application",
                 "version": "0.1",
                 "version_normalized": "0.1.0.0",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/joomla-distro/cms-administrator-application/archive/master.zip",
+                    "url": "https://github.com/joomla-distro/cms-frontend-application/archive/master.zip",
                     "reference": null,
                     "shasum": null
                 },
@@ -70,7 +70,7 @@
                 "type": "cms-application",
                 "autoload": {
                     "psr-0": {
-                        "Administrator": "src"
+                        "Frontend": "src"
                     }
                 }
             }
@@ -83,6 +83,28 @@
                 "dist": {
                     "type": "zip",
                     "url": "https://github.com/joomla-distro/cms-users/archive/master.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "joomla-distro/cms-distro-core": "*"
+                },
+                "type": "cms-component",
+                "autoload": {
+                    "psr-0": {
+                        "Component": "src"
+                    }
+                }
+            }
+        },
+        "joomla-distro/cms-administrator": {
+            "0.1": {
+                "name": "joomla-distro/cms-administrator",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/joomla-distro/cms-administrator/archive/master.zip",
                     "reference": null,
                     "shasum": null
                 },
