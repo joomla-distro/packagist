@@ -23,6 +23,26 @@
                 }
             }
         },
+        "joomla-distro/cms-events-package": {
+            "0.1": {
+                "name": "joomla-distro/cms-events-package",
+                "version": "0.1",
+                "version_normalized": "0.1.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/joomla-distro/cms-events-package/archive/master.zip",
+                    "reference": null,
+                    "shasum": null
+                },
+                "require": {
+                    "joomla-distro/cms-distro-core": "*"
+                },
+                "autoload": {
+                    "psr-4": {"JDistro\\Composer\\Package\\": "src/"}
+                },
+                "type": "library"
+            }
+        },
         "joomla-distro/cms-installer-application": {
             "0.1": {
                 "name": "joomla-distro/cms-installer-application",
@@ -127,9 +147,9 @@
                     "shasum": null
                 },
                 "require": {
-                    "joomla-distro/cms-distro-core": "*"
+                    "joomla-distro/cms-events-package": "*"
                 },
-                "type": "cms-media"
+                "type": "cms-events"
             }
         },
         "bootstrap/v3": {
