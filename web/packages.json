@@ -150,7 +150,7 @@
                 "require": {
                     "joomla-distro/cms-distro-core": "*"
                 },
-                "type": "cms-media"
+                "type": "cms-assets"
             }
         },
         "bootstrap/v2": {
