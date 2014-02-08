@@ -16,7 +16,7 @@
                 },
                 "type": "composer-plugin",
                 "extra": {
-                    "class": "Cms\\Composer\\Installer"
+                    "class": "JDistro\\Composer\\Installer"
                 },
                 "autoload": {
                     "psr-4": {"JDistro\\Composer\\": "src/"}
