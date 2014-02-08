@@ -34,9 +34,6 @@
                     "reference": null,
                     "shasum": null
                 },
-                "require": {
-                    "joomla-distro/cms-distro-core": "*"
-                },
                 "autoload": {
                     "psr-4": {"JDistro\\Composer\\Package\\": "src/"}
                 },
