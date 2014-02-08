@@ -19,7 +19,7 @@
                     "class": "Cms\\Composer\\Installer"
                 },
                 "autoload": {
-                    "psr-4": {"JDistro\\Composer": "src/"}
+                    "psr-4": {"JDistro\\Composer\\": "src/"}
                 }
             }
         },
