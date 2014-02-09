@@ -35,10 +35,7 @@
                     "shasum": null
                 },
                 "autoload": {
-                    "psr-4": {"JDistro\\Composer\\Package\\": "src/"}
-                },
-                "extra": {
-                    "class": "JDistro\\Composer\\Package\\CmsEvents"
+                    "psr-4": {"JDistro\\Package\\": "src/"}
                 },
                 "type": "library"
             }
