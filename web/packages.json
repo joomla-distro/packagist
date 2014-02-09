@@ -144,7 +144,8 @@
                     "shasum": null
                 },
                 "require": {
-                    "joomla-distro/cms-events-package": "*"
+                    "joomla-distro/cms-events-package": "*",
+                    "joomla-distro/cms-distro-core": "*"
                 },
                 "type": "cms-events"
             }
