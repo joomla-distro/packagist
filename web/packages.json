@@ -37,6 +37,9 @@
                 "autoload": {
                     "psr-4": {"JDistro\\Composer\\Package\\": "src/"}
                 },
+                "extra": {
+                    "class": "JDistro\\Composer\\Package\\CmsEvents"
+                },
                 "type": "library"
             }
         },
