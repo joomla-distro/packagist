@@ -61,8 +61,8 @@
                 "type": "library",
                 "autoload": {
                     "psr-4": [
-                        {"JoomlaDistro\\CmsInstallerApplication\\": "src"},
-                        {"JoomlaDistro\\CmsInstallerApplication\\Language\\": "language"}
+                        {"JoomlaDistro\\CmsInstallerApplication\\": "src/"},
+                        {"JoomlaDistro\\CmsInstallerApplication\\Language\\": "language/"}
                     ]
                 }
             }
