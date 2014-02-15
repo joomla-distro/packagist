@@ -60,10 +60,10 @@
                 },
                 "type": "library",
                 "autoload": {
-                    "psr-4": [
-                        {"JoomlaDistro\\CmsInstallerApplication\\": "src/"},
-                        {"JoomlaDistro\\CmsInstallerApplication\\Language\\": "language/"}
-                    ]
+                    "psr-4": {
+                        "JoomlaDistro\\CmsInstallerApplication\\": "src",
+                        "JoomlaDistro\\CmsInstallerApplication\\Language\\": "language"
+                    }
                 }
             }
         },
